@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootswatch/dist/yeti/bootstrap.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -12,6 +13,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css"></link>
     <App />
   </React.StrictMode>
 );
